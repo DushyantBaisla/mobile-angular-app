@@ -64,7 +64,7 @@ cp "$APK_PATH" "$HOME_DIR/$random_name.apk"
 echo "APK successfully copied to $HOME_DIR."
 
 # Step 10: Confirm the APK has been copied
-if [ -f "$HOME_DIR/app-debug.apk" ]; then
+if [ -f "$HOME_DIR/$random_name.apk" ]; then
   echo "APK successfully copied to $HOME_DIR"
 else
   echo "Error: Failed to copy the APK."
