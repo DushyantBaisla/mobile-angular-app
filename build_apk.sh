@@ -19,6 +19,7 @@ rm -rf "$ANDROID_PROJECT_PATH"
 # Delete the `dist` folder (Angular's build output)
 echo "Removing the dist folder..."
 rm -rf "$PROJECT_PATH/mobile-angular-app/dist"  # Adjust if necessary to your build output directory
+rm -f "$HOME_DIR/*.apk"
 
 # Step 1: Build the Angular project (dist folder)
 echo "Building Angular dist folder..."
@@ -57,8 +58,9 @@ fi
 echo "APK found at: $APK_PATH"
 
 # Step 9: Copy the APK to the home directory
+random_name=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 16)
 echo "Copying the APK to the home directory ($HOME_DIR)..."
-cp "$APK_PATH" "$HOME_DIR"
+cp "$APK_PATH" "$HOME_DIR/$random_name.apk"
 echo "APK successfully copied to $HOME_DIR."
 
 # Step 10: Confirm the APK has been copied
