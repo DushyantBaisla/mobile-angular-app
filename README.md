@@ -1,5 +1,8 @@
 # MobileAngularApp
 
+# Download APK
+[Download APK](https://raw.githubusercontent.com/DushyantBaisla/mobile-angular-app/refs/heads/master/app-debug.apk?token=GHSAT0AAAAAAC4DF3RC3BYBXHVQBQIQZPUYZ3GZSYQ)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
 ## Development server
@@ -29,5 +32,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### Download the APK
 
 You can download the APK from the repository:
-
-[Download APK](https://raw.githubusercontent.com/DushyantBaisla/mobile-angular-app/refs/heads/master/app-debug.apk?token=GHSAT0AAAAAAC4DF3RC3BYBXHVQBQIQZPUYZ3GZSYQ)
